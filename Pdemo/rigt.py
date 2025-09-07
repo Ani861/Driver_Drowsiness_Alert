@@ -405,10 +405,8 @@ def main():
     """, unsafe_allow_html=True)
 
     col_logo, col_title = st.columns([1, 4])
-    with col_logo:
-        st.image("../logo.jpeg", width=120)
     with col_title:
-        st.markdown('<h1 class="main-title">Driver Drowsiness Detection System</h1>', unsafe_allow_html=True)
+             st.markdown('<h1 class="main-title">Driver Drowsiness Detection System</h1>', unsafe_allow_html=True)
     st.markdown("---")
 
     # Session State Initialization (with BlynkManager)
