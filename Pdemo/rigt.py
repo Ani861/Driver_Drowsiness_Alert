@@ -518,7 +518,7 @@ def main():
     else:
         with video_placeholder.container():
             st.markdown('<div class="video-container">', unsafe_allow_html=True)
-            st.image("https://images.vexels.com/media/users/3/134989/isolated/preview/90c81e3560efefd0819e1c71feecf3be-camera-off-button-flat-icon.png", use_container_width=True)
+            st.image("https://images.vexels.com/media/users/3/134989/isolated/preview/90c81e3560efefd0819e1c71feecf3be-camera-off-button-flat-icon.png")
             st.markdown('</div>', unsafe_allow_html=True)
         status_placeholder.markdown('<div class="status-box" style="background-color: #F5F5F5; border-color: #CCCCCC; color: #666666;"><h3>Detection Stopped</h3></div>', unsafe_allow_html=True)
         
