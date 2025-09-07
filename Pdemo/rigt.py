@@ -122,7 +122,7 @@ class DrowsinessDetector:
     This class is designed to be run in a background thread.
     """
     # MODIFIED: Added blynk_manager to __init__
-    def __init__(self, eye_model_path="Pdemo/weights/best.pt", yawn_model_path="Pdemo/weights2/best.pt", blynk_manager=None):
+    def __init__(self, eye_model_path="https://github.com/Ani861/Driver_Drowsiness_Alert/tree/main/Pdemo/weights/best.pt", yawn_model_path="https://github.com/Ani861/Driver_Drowsiness_Alert/tree/main/Pdemo/weights2/best.pt", blynk_manager=None):
         # --- Model Initialization ---
         self.detect_eye = YOLO(eye_model_path)
         self.detect_yawn = YOLO(yawn_model_path)
